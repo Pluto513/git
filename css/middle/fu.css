@@ -1,0 +1,122 @@
+.fu{
+	width: 100%;
+	height: auto;
+	position: relative;
+	
+}
+.rotation{
+	height: 495px;
+}
+a{
+	cursor: pointer;
+}
+.fu-u{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 10px;
+	margin: 0 0 0 0;
+	box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+}
+.fu h2{
+	margin-left: 20px;
+}
+.fu-u .tu{
+	margin: 0 0 0 0;
+}
+.fu-u ul{
+	width: 100%;
+	height: 600px;
+	list-style: none;
+}
+.fu-u ul>li{
+	float: left;
+	
+	
+}
+.fu-u ul>li img{
+	margin: 77px 35px 0 136px;
+}
+.fu-u ul>li p{
+	margin: 0 0 0 148px;
+	
+}
+.fu-u ul>li a{
+	text-decoration: none;
+}
+.fu-tu img{
+	margin: 0 0 0 93px;
+	text-align: center;
+}
+.fu-u1{
+	width: 100%;
+	height: 649px;
+	background: #f0f0f0;
+	margin: 28px 0 0 0;
+}
+.fu-u1 h2{
+	padding: 31px 0 0 0;
+}
+.fu-u1 img{
+	padding: 23px 0 0 112px;
+}
+.fu-u2{
+	width: 100%;
+	height: 690px;
+	background: #f0f0f0;
+}
+.fu-u12 h2{
+	padding: 31px 0 0 0;
+}
+.fu-u2 ul{
+	width: 100%;
+	height: 662px;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 10px;
+	margin: 18px 0 0 0;
+	/* box-shadow: 0 1px 8px rgba(0,0,0,0.06); */
+}
+.fu-u2 ul>li{
+	margin: 0 0 0 0;
+	float: left;
+	line-height: 10px;
+}
+.fu-u2 ul>li p{
+	
+	line-height: 37px;
+}
+.fu-u2 ul .li1 p{
+	margin: 0 0 0 131px;
+	line-height: 37px;
+}
+.fu-u2 .li1{
+	margin: -31px 73px 0 81px;
+}
+.fu-u2 ul>li .li2{
+	margin: 78px 158px -148px 215px;
+}
+
+.fu-u2 .li3{
+	margin: 73px 73px 0 46px;
+}
+.fu-u3{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #f0f0f0;
+}
+.fu-u3 h2{
+	padding: 31px 0 0 0;
+}
+.fu-u3 ul{
+	margin: 0 0 0 -106px;
+}
+.fu-u3 ul>li{
+	
+}
+.fu-u3 ul>li img{
+	width: 100%;
+	height: 512px;
+}

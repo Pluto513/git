@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>购物车 - 慢羊羊商城</title>
+		<link rel="shortcut icon" href="../ico/favicon (1).ico" type="image/x-icon">
+
+		<!--导入css连接-->
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+		<!--导入js连接-->
+		<script src="../js/jquery-2.1.1.js"></script>
+
+		<script src="../js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!--顶部-->
+		<nav id="top" class="collapse navbar-collapse">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6">
+						<ul class="top-link" style="float: left;">
+							<li>
+								<a href="HUAWEI.html">首页</a>
+							</li>
+							<li>
+								<a href="huawei_1.html">华为官网</a>
+							</li>
+							<li>
+								<a href="honor.html">荣耀官网</a>
+							</li>
+							<li>
+								<a href="#">花粉俱乐部</a>
+							</li>
+							<li>
+								<a href="#">企业购</a>
+							</li>
+							<li>
+								<a href="category.html">更多精彩</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-xs-6">
+						<ul class="top-link">
+							<li>
+								<a href="denglu.html">登录</a>
+							</li>
+							<li>
+								<a href="zhuce.html">注册</a>
+							</li>
+							<li>
+								<a href="order.html">我的订单</a>
+							</li>
+							<li>
+								<a href="#">客户服务</a>
+							</li>
+							<li>
+								<a href="#">网站导航</a>
+							</li>
+							<li>
+								<a href="#">购物车</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!--购物车-->
+		<div id="page-content" class="single-page">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<a href="#">我的购物车</a>
+						<hr/>
+					</div>
+				</div>
+
+				<!--展示-->
+                <p><input type="checkbox" />全选</p>
+
+				<!--购物车操作-->
+				<div class="row">
+					<button class="btn btn-default" style="float: right;margin: 5px 5px 0 0; ">✖</button>
+					<div class=" well">
+						<div class="col-xs-5 col-sm-2 text-left" >
+							<div class="image">
+								<input type="checkbox" style="margin-left:-20px; margin-right:10px;" />
+								<img src="../img/shopcat1.PNG" />
+							</div>
+						</div>
+						<div class="col-xs-7  col-sm-6">
+							<div class="caption">
+								<div class="name">
+									<a href="#">华为畅享10 6GB+64GB 全网通版（幻夜黑）</a><br/>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-3 text-right ">
+							<p>¥1399.00</p>
+							<input type="button" value="-" class="btn btn-default 1" />
+							<input type="text" style="width:30px; height:30px;" value="1" class="btn btn-default 2"/>
+							<input type="button" value="+" class="btn btn-default 3"  />
+						</div>
+						<hr class="col-xs-12" style="padding: 0"/>
+						<div class="clear"></div>
+						<div style="float: right;padding-bottom: 10px;">
+							<p>小计：¥ 1399</p>
+						</div>
+				</div>
+					<div class="row">
+						<!--下标结算-->
+						<div class="col-xs-12 text-right">
+							<span style="color: red;margin-right: 10px;font-size: large">总计：¥ 1399.00</span sty>
+							<button class="btn btn-warning btn-lg"><a href="order.html">立即购买</a></button>
+						</div>
+					</div>
+
+				<!--精选搭配-->
+				<div class="product-related">
+					<div class="heading">
+						<h6>精选搭配</h6>
+					</div>
+					<div class="products">
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="product" style="color:#F00;">
+
+								<div class="col-xs-12">
+									<div class="image col-lg-6">
+										<a href="#">
+											<img src="../img/shopcatshow1.png" />
+										</a>
+									</div>
+									<div class="col-lg-6">
+										<p>华为车载充电器QuickCharge快充版</p>
+										<p>￥49<input type="button" value="+"  class="btn btn-default" /></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="product" style="color:#F00;">
+								<div class="col-xs-12">
+									<div class="image col-lg-6">
+										<a href="#">
+											<img src="../img/shopcatshow2.png" />
+										</a>
+									</div>
+									<div class="col-lg-6">
+										<p>华为三脚架自拍杆 无线版（黑色）</p>
+										<p>¥ 89.00<input type="button" value="+"  class="btn btn-default" /></p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="product" style="color:#F00;">
+
+								<div class="col-xs-12">
+									<div class="image col-lg-6">
+										<a href="#">
+											<img src="../img/shopcatshow3.png" />
+										</a>
+									</div>
+									<div class="col-lg-6">
+										<p>华为智能体脂秤（黑色）</p>
+										<p>¥99.00<input type="button" value="+"  class="btn btn-default" /></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="products">
+					<div class="col-lg-4 col-md-4 col-xs-12">
+						<div class="product" style="color:#F00;">
+							<div class="col-xs-12">
+								<div class="image col-lg-6">
+									<a href="#">
+										<img src="../img/shopcatshow4.png" />
+									</a>
+								</div>
+								<div class="col-lg-6">
+									<p>华为mini蓝牙音箱 nova迷你小音箱（绮境森林）</p>
+									<p>¥129.00<input type="button" value="+"  class="btn btn-default" /></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-xs-12">
+						<div class="product" style="color:#F00;">
+							<div class="col-xs-12">
+								<div class="image col-lg-6">
+									<a href="#">
+										<img src="../img/shopcatshow5.png" />
+									</a>
+								</div>
+								<div class="col-lg-6">
+									<p>HUAWEI FreeBuds 悦享版 无线耳机（碳晶黑）</p>
+									<p>¥399.00<input type="button" value="+"  class="btn btn-default" /></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+
+		<!--脚步-->
+		<footer>
+			<div class="container">
+				<div class="wrap-footer">
+					<div class="row">
+						<div class="col-md-3 col-footer footer-1">
+							<div class="heading">
+								<h4>关于荣耀</h4></div>
+							<ul>
+								<li>
+									<a href="#">荣耀锐影像</a>
+								</li>
+								<li>
+									<a href="#">荣耀大事记</a>
+								</li>
+								<li>
+									<a href="#">荣耀人物</a>
+								</li>
+								<li>
+									<a href="#">品牌问题</a>
+								</li>
+								<li>
+									<a href="#">新闻中心</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-footer footer-2">
+							<div class="heading">
+								<h4>产品</h4></div>
+							<ul>
+								<li>
+									<a href="#">手机</a>
+								</li>
+								<li>
+									<a href="#">荣耀智慧屏</a>
+								</li>
+								<li>
+									<a href="#">笔记本&平板</a>
+								</li>
+								<li>
+									<a href="#">穿戴设备</a>
+								</li>
+								<li>
+									<a href="#">智能家庭</a>
+								</li>
+								<li>
+									<a href="#">配件</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-footer footer-3">
+							<div class="heading">
+								<h4>快速链接</h4></div>
+							<ul>
+								<li>
+									<a href="#">物料下载</a>
+								</li>
+								<li>
+									<a href="#">移动端官网</a>
+								</li>
+								<li>
+									<a href="#">华为商城</a>
+								</li>
+								<li>
+									<a href="#">华为开发者联盟</a>
+								</li>
+								<li>
+									<a href="#">华为云</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-md-3 col-footer footer-4">
+							<div class="heading">
+								<h4>联系我们</h4></div>
+							<ul>
+								<li><span class="glyphicon glyphicon-home"></span>California, United States 3000009</li>
+								<li><span class="glyphicon glyphicon-earphone"></span>950800</li>
+								<li><span class="glyphicon glyphicon-envelope"></span>infor@yoursite.com</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+
+						<span>法律声明  |   隐私声明  |   免责条款  |   关于cookies</span><br />
+						<span>Copyright © 2012-2020 华为终端有限公司 版权所有 保留一切权利  |  苏公网安备 32011402010006号 粤ICP备19015064号</span>
+
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</body>
+</html>
